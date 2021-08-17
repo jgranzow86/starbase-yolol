@@ -25,7 +25,7 @@ These are screen shots of the device field names to help set it up.
 ![Material Point Scanner](material_point_scanner.png)
 
 # Text display
-![Text Display](text_disaplay.png)
+![Text Display](text_display.png)
 
 # Button to activate
 ![Activate Button](activate_button.png)
