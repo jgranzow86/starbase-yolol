@@ -1,0 +1,6 @@
+IF :scanActive==1 THEN :Scan=1 :Reset=1 :idx=0 out="" ELSE GOTO6 END
+IF :ScanResults==0 THEN out="\n" + "No Results" GOTO5 END
+IF :idx>=:ScanResults THEN GOTO5 END
+out+=:Material+"\n" out+=:Volume + "\n" :idx+=1 GOTO2
+:MatScan = out GOTO1
+:MatScan="Scanner Off" GOTO1
