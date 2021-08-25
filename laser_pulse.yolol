@@ -1,0 +1,2 @@
+IF :Lsr==1 THEN :MiningLaser=1 ELSE :MiningLaser=0 GOTO1 END
+:MiningLaser=0 goto1

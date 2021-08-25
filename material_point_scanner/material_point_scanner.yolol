@@ -1,0 +1,4 @@
+O=" Ore" C=" Crystal" N="\n" S=":" F="" NR="No Results"
+IF :ScanActive THEN :Scan=1 F="" ELSE :id=0 :Ore="Offline" GOTO2 END
+IF :id<:sr THEN F+=N+:Ma-O-C+S+N+"~"+:Vl :id++ GOTO3 ELSE GOTO4 END
+:Ore=F :id=0 :Rst=1 GOTO2
